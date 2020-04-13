@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/spatulag.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/spatulag.github.io/" rel="alternate" type="text/html" /><updated>2020-04-13T01:51:34-04:00</updated><id>http://localhost:4000/spatulag.github.io/feed.xml</id><title type="html">荣哥的开发博客</title><subtitle>啊啊啊欢迎来我的菜鸡开发博客！！！！ 玩了快一个月动森之后现在贤者模式觉得有必要开始认真学习了（） 总之以后会在这个网站更新所有和开发相关的东西 如果是想看我的3d 2d作品可以去（https://www.artstation.com/spatulag） 欢迎好哥哥们来踩 提前给各位拜年了。  开发者博客还是做土嗨一点舒服 毕竟一介粗人（</subtitle><entry><title type="html">蒙特·卡罗(Monte Carlo)积分在图形学中的应用</title><link href="http://localhost:4000/spatulag.github.io/2020/04/12/quiz-10.html" rel="alternate" type="text/html" title="蒙特·卡罗(Monte Carlo)积分在图形学中的应用" /><published>2020-04-12T23:31:00-04:00</published><updated>2020-04-12T23:31:00-04:00</updated><id>http://localhost:4000/spatulag.github.io/2020/04/12/quiz-10</id><content type="html" xml:base="http://localhost:4000/spatulag.github.io/2020/04/12/quiz-10.html">&lt;p&gt;&lt;em&gt;引言&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;其实建站的原因是预习CG（（（（浪费了人生的一个小时在搞定github page上 好在现在搞定了以后更新起日志的速度也就快了&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;蒙特卡洛积分&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;那么什么是蒙特卡洛积分？蒙特卡洛法，也称统计模拟方法 ，是一种计算机化的数学方法，简而言之就是，就是在求积分时，如果找不到被积函数的原函数，那么利用经典积分方法是得不到积分结果的，但是蒙特卡洛积分方法告诉我们，利用一个随机变量对被积函数进行采样，并将采样值进行一定的处理，那么当采样数量很高时，得到的结果可以很好的近似原积分的结果。这样一来，我们就不用去求原函数的形式，就能求得积分的近似结果。
+于是接下来的工作就变成了找平均值。
+期望E（y）就是所有可能的结果乘可能性百分比的和，也就是E(Y) = p1y1+p2y2+…+piyi
+同时我们还会希望得到他的方差variance来评判我们的采样究竟相差有多大
+V[y] = E[(Y-E[y]^2]=E[Y^2]-E[Y]^2&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/output - Copy.jpg&quot; alt=&quot;输出结果&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这张图是我在自己写的程序里看到的输出结果，可以看到随着采样率增加结果越来越接近预测值。&lt;/p&gt;</content><author><name></name></author><category term="Computer Graphics" /><summary type="html">引言</summary></entry><entry><title type="html">Jekyll 建站相关</title><link href="http://localhost:4000/spatulag.github.io/jekyll/update/2020/04/12/dev-reference.html" rel="alternate" type="text/html" title="Jekyll 建站相关" /><published>2020-04-12T22:27:03-04:00</published><updated>2020-04-12T22:27:03-04:00</updated><id>http://localhost:4000/spatulag.github.io/jekyll/update/2020/04/12/dev-reference</id><content type="html" xml:base="http://localhost:4000/spatulag.github.io/jekyll/update/2020/04/12/dev-reference.html">&lt;p&gt;这个是用jekyll会自带的东西23333人老了记性不好删了就不会了（）
+You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">这个是用jekyll会自带的东西23333人老了记性不好删了就不会了（） You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
