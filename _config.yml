@@ -21,14 +21,12 @@ encoding: UTF-8
 title: 荣哥的开发博客
 email: rongfu@andrew.cmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-
-啊啊啊欢迎来我的菜鸡开发博客！！！！
-玩了快一个月动森之后现在贤者模式觉得有必要开始认真学习了（）
-总之以后会在这个网站更新所有和开发相关的东西
-如果是想看我的3d 2d作品可以去（https://www.artstation.com/spatulag）
-欢迎好哥哥们来踩 提前给各位拜年了。 
-开发者博客还是做土嗨一点舒服 毕竟一介粗人（
-
+  啊啊啊欢迎来我的菜鸡开发博客！！！！
+  玩了快一个月动森之后现在贤者模式觉得有必要开始认真学习了（）
+  总之以后会在这个网站更新所有和开发相关的东西
+  如果是想看我的3d 2d作品可以去（https://www.artstation.com/spatulag）
+  欢迎好哥哥们来踩 提前给各位拜年了。 
+  开发者博客还是做土嗨一点舒服 毕竟一介粗人（
 baseurl: "spatulag.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spatula_g
