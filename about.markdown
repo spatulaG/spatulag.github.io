@@ -1,18 +1,21 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
+CMU游戏在读：） 
+我喜欢的东西很杂！画画和程序其实都喜欢！但是因为严重拖延症加本身也学的不专注所以两手抓两手都软233333
+我的优点应该是只要是想到的东西都会努力去做！比如这个站，起初就是单纯的想要记个笔记，然后搜知乎居然要绑定手机！
+太傻缺了我真的好讨厌绑定手机，于是就来了这里。
+建github pages真的挺傻瓜的，照着步骤来半个小时不到就可以建好。真的安利每个人！
+我觉得如果是开发者的话这样的page真的足够写日志了。
+以后还是想做游戏，然后想从事3d相关的职业，像江怡冰那样！
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+啊其实我还喜欢音乐剧和摇滚还有钓鱼（
+但是既然你是来看我的blog我就不细写辽2333欢迎来twitter DM我！
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+感谢你看到这里！
+我的个人网站：www.spatulag.fun
 
 
-[jekyll-organization]: https://github.com/jekyll
+![My bijou](/assets/disapproving-beatle.jpg)
