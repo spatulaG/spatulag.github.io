@@ -16,6 +16,6 @@ tags: [Computer Graphics]
 同时我们还会希望得到他的方差variance来评判我们的采样究竟相差有多大
 V[y] = E[(Y-E[y]^2]=E[Y^2]-E[Y]^2
 
-![输出结果](/assets/output - Copy.jpg)
+![输出结果](/assets/output.jpg)
 
 这张图是我在自己写的程序里看到的输出结果，可以看到随着采样率增加结果越来越接近预测值。
